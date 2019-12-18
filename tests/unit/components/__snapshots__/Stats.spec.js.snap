@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stats Should render. 1`] = `
+<div class="stats">
+  <div class="stat">
+    <div class="number">37</div>
+    <div class="label">POSTS</div>
+  </div>
+  <div class="stat">
+    <div class="number">3904</div>
+    <div class="label">VOTES</div>
+  </div>
+  <div class="stat">
+    <div class="number">371</div>
+    <div class="label">COMMENTS</div>
+  </div>
+  <div class="stat">
+    <div class="number">54</div>
+    <div class="label">MAKERS</div>
+  </div>
+</div>
+`;

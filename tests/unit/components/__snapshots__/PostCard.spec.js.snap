@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostCard Should render. 1`] = `
+<div class="post-card"><img src="https://hello.com/img/random.png" class="card-img">
+  <div class="card-body">
+    <h3 class="title">Kite compositor</h3>
+    <p class="upvotes">731 upvotes</p>
+    <p class="description">This is a post about interesting things... I guess !</p>
+  </div>
+</div>
+`;
