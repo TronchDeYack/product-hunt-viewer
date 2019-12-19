@@ -1,12 +1,26 @@
-import { mount } from '@vue/test-utils';
+import { mount, createLocalVue } from '@vue/test-utils';
+import Vuex from 'vuex';
 
 import DaysSelector from '@/components/DaysSelector.vue';
+import initializeStore from '../utils';
+
+const localVue = createLocalVue();
+
+localVue.use(Vuex);
 
 describe('DaysSelector', () => {
   let wrapper;
+  const setDayMock = jest.fn();
 
-  beforeAll(() => {
-    wrapper = mount(DaysSelector);
+  const selectedDay = 15;
+
+  beforeEach(() => {
+    wrapper = mount(DaysSelector, {
+      localVue,
+      mocks: {
+        $store: initializeStore(selectedDay, setDayMock),
+      },
+    });
   });
 
   it('Should render.', () => {
@@ -27,5 +41,14 @@ describe('DaysSelector', () => {
 
   it('Should display "3 days ago" for the fourth value of the list.', () => {
     expect(wrapper.findAll('option').at(3).text()).toEqual('3 days ago');
+  });
+
+  it('Should call "setDay" mutation with the new selected day when changing value.', () => {
+    const anotherDay = '28';
+
+    wrapper.findAll('option').at(anotherDay).element.selected = true;
+    wrapper.find('select').trigger('change');
+
+    expect(setDayMock.mock.calls[0][1]).toBe(28);
   });
 });

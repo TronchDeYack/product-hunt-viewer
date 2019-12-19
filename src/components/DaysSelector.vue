@@ -1,5 +1,5 @@
 <template>
-  <select class="days">
+  <select class="days" :value="day" @change="onDayUpdate">
     <option v-for="index in 31" :key="index" :value="index-1">
       {{ getLabel(index - 1) }}
     </option>
@@ -7,6 +7,8 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 export default {
   name: 'days-selector',
   methods: {
@@ -19,6 +21,14 @@ export default {
       }
       return `${index} days ago`;
     },
+    onDayUpdate(evt) {
+      this.$store.commit('setDay', Number(evt.target.value));
+    },
+  },
+  computed: {
+    ...mapState({
+      day: state => state.day,
+    }),
   },
 };
 </script>

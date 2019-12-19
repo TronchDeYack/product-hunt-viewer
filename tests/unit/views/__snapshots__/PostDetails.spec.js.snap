@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PostDetails Should render. 1`] = `
+exports[`PostDetails Post loaded Should render. 1`] = `
 <div class="post">
   <backbutton-stub class="back-btn"></backbutton-stub>
   <div class="post-content">
@@ -19,7 +19,7 @@ exports[`PostDetails Should render. 1`] = `
       </div>
     </div>
     <aside class="aside">
-      <people-stub makers="[object Object],[object Object],[object Object]" user="[object Object]"></people-stub>
+      <people-stub user="[object Object]" makers="[object Object],[object Object],[object Object]"></people-stub>
     </aside>
   </div>
 </div>

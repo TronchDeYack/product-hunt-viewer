@@ -8,5 +8,6 @@ module.exports = {
   },
   rules: {
     strict: 'off',
+    'import/no-extraneous-dependencies': 0,
   },
 };

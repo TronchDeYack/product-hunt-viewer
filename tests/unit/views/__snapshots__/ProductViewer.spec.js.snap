@@ -3,7 +3,7 @@
 exports[`ProductViewer Should render. 1`] = `
 <div class="product-viewer">
   <daysselector-stub></daysselector-stub>
-  <stats-stub posts="37" votes="3904" comments="371" makers="54"></stats-stub>
-  <posts-stub></posts-stub>
+  <stats-stub posts="2" votes="419" comments="400" makers="4"></stats-stub>
+  <posts-stub posts="[object Object]"></posts-stub>
 </div>
 `;

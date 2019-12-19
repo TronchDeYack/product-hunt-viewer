@@ -31,6 +31,9 @@ export default {
   components: {
     User,
   },
-  props: ['user', 'makers'],
+  props: {
+    user: Object,
+    makers: Array,
+  },
 };
 </script>

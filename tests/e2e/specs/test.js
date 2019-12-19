@@ -10,8 +10,8 @@ describe('Product viewer', () => {
     cy.get('.days').should('be.visible');
   });
 
-  it('Displays mocked posts.', () => {
+  it('Displays posts.', () => {
     cy.visit('/');
-    cy.get('.post-card').should('have.length', 6);
+    cy.get('.post-card').should('be.visible');
   });
 });

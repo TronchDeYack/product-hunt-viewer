@@ -2,11 +2,7 @@
 
 exports[`Posts Should render. 1`] = `
 <div class="posts">
-  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
-  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
-  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
-  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
-  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
-  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
+  <postcard-stub id="178112" img="https://ph-files.imgix.net/4d44f9de-3d83-4a29-9285-a0651bc948e0?auto=format&amp;fit=crop" title="Mailmeteor" votes="212" description="Mailmeteor is the easiest and privacy-first mail merge add-on for Gmail. 🌠Email a lot of people quickly 🌠Real-time tracking, attachments, alias... 🌠Increase your answer rate dramatically 💫 Send 100 emails a day for free"></postcard-stub>
+  <postcard-stub id="178447" img="https://ph-files.imgix.net/42122d73-bde8-49af-99bd-67d9351f978f?auto=format&amp;fit=crop" title="Slapdash 1.0 " votes="207" description="A rethink of how we work, with a focus on speed, ergonomics and fun. It's the missing operating system for your cloud apps."></postcard-stub>
 </div>
 `;
