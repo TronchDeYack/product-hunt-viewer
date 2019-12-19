@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostDetails Should render. 1`] = `
+<div class="post">
+  <backbutton-stub class="back-btn"></backbutton-stub>
+  <div class="post-content">
+    <div class="main">
+      <div class="header"><img src="https://ph-files.imgix.net/9f7a1434-3031-47b4-95e3-636f4e4c29e0?auto=format&amp;fit=crop">
+        <div class="header-content">
+          <h1>Firefox Lockwise</h1>
+          <h2>Take your passwords everywhere.</h2>
+        </div>
+      </div>
+      <div class="details"><img src="https://ph-files.imgix.net/06a4b0e0-c0d6-4795-9252-9d4947edc2bc?auto=format&amp;fit=crop" class="main-picture">
+        <p>
+          Securely access the passwords you’ve saved in Firefox from anywhere — even outside of the browser with the redesigned, open-source password manager from Firefox.
+        </p>
+        <div class="created-at">Created at : 18/12/2019</div>
+      </div>
+    </div>
+    <aside class="aside">
+      <people-stub makers="[object Object],[object Object],[object Object]" user="[object Object]"></people-stub>
+    </aside>
+  </div>
+</div>
+`;

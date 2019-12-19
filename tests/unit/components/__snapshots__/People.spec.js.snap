@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`People Should render. 1`] = `
+<div class="people">
+  <h2>Hunter</h2>
+  <user-stub name="Quos T." headline="DevOps Engineer" img="https://ph-avatars.imgix.net/2250227/original?auto=format&amp;fit=crop&amp;crop=faces&amp;w=original&amp;h=original"></user-stub>
+  <h2>Makers</h2>
+  <user-stub name="Barbara Bermes" headline="Sr. Product Manager, Firefox Android" img="https://ph-avatars.imgix.net/2272615/original?auto=format&amp;fit=crop&amp;crop=faces&amp;w=original&amp;h=original"></user-stub>
+  <user-stub name="Anthony Lam" headline="Product Design Manager, Firefox UX" img="https://ph-avatars.imgix.net/2272615/original?auto=format&amp;fit=crop&amp;crop=faces&amp;w=original&amp;h=original"></user-stub>
+  <user-stub name="Nick Nguyen" headline="Vice President, Firefox Product" img="https://ph-avatars.imgix.net/2272615/original?auto=format&amp;fit=crop&amp;crop=faces&amp;w=original&amp;h=original"></user-stub>
+</div>
+`;

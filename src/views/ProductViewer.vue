@@ -1,7 +1,5 @@
 <template>
   <div class="product-viewer">
-    <h1 class="title">ProductHunt</h1>
-    <h2 class="subtitle">The best new products, every day</h2>
     <DaysSelector />
     <Stats :posts=37 :votes=3904 :comments=371 :makers=54 />
     <Posts />

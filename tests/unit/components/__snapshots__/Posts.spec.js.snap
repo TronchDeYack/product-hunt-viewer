@@ -2,11 +2,11 @@
 
 exports[`Posts Should render. 1`] = `
 <div class="posts">
-  <postcard-stub img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
-  <postcard-stub img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
-  <postcard-stub img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
-  <postcard-stub img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
-  <postcard-stub img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
-  <postcard-stub img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
+  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
+  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
+  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
+  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
+  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
+  <postcard-stub id="178447" img="https://ph-files.imgix.net/85b28898-f9b2-40ec-8856-20be8bf3d2e0?auto=format&amp;fit=crop" title="Kite compositor" votes="731" description="This is a post about interesting things... I guess !"></postcard-stub>
 </div>
 `;

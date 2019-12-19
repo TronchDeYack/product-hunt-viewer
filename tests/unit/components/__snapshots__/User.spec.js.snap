@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Should render. 1`] = `
+<div class="user"><img src="https://ph-avatars.imgix.net/2250227/original?auto=format&amp;fit=crop&amp;crop=faces&amp;w=original&amp;h=original">
+  <div class="content">
+    <div class="name">
+      Quos T.
+    </div> <span class="headline">
+      DevOps Engineer
+    </span>
+  </div>
+</div>
+`;

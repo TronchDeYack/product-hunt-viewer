@@ -1,5 +1,5 @@
 <template>
-  <div class="post-card">
+  <div class="post-card" @click="goToPostDetails(id)">
     <img class="card-img" :src="img" />
     <div class="card-body">
       <h3 class="title">{{ title }}</h3>
@@ -46,10 +46,16 @@
 export default {
   name: 'post-card',
   props: {
+    id: String,
     img: String,
     title: String,
     votes: Number,
     description: String,
+  },
+  methods: {
+    goToPostDetails(id) {
+      this.$router.push(`/post/${id}`);
+    },
   },
 };
 </script>

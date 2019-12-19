@@ -2,8 +2,6 @@
 
 exports[`ProductViewer Should render. 1`] = `
 <div class="product-viewer">
-  <h1 class="title">ProductHunt</h1>
-  <h2 class="subtitle">The best new products, every day</h2>
   <daysselector-stub></daysselector-stub>
   <stats-stub posts="37" votes="3904" comments="371" makers="54"></stats-stub>
   <posts-stub></posts-stub>
